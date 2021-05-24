@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectSrc.API", "RectSrc.API.csproj", "{6D01ED24-6469-4427-9933-D9579CAA09DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D01ED24-6469-4427-9933-D9579CAA09DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D01ED24-6469-4427-9933-D9579CAA09DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D01ED24-6469-4427-9933-D9579CAA09DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D01ED24-6469-4427-9933-D9579CAA09DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEE2681D-064A-4466-A574-D7426F5FD3C5}
+	EndGlobalSection
+EndGlobal

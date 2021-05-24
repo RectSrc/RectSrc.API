@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>RectSrc.API</AssemblyName>
+    <RootNamespace>RectSrc.API</RootNamespace>
+    <StartupObject></StartupObject>
+    <Authors>RectSrc, khhs</Authors>
+    <Company>RectSrc</Company>
+    <Description>The C# implementation of the RectSrc API</Description>
+    <Copyright>RectSrc 2021</Copyright>
+    <SignAssembly>false</SignAssembly>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DownloadPlusPlus">
+      <HintPath>DownloadPlusPlus.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
